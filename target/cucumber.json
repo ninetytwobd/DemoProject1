@@ -1,0 +1,94 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify user can login successfully",
+        "description": "",
+        "id": "login;verify-user-can-login-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6304229400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open page \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 11
+                }
+              ],
+              "location": "LoginStepDep.Open_page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 432636900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on SignIN Button",
+            "match": {
+              "location": "LoginStepDep.click_on_SignIN_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5371529500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on SignIN Link",
+            "match": {
+              "location": "LoginStepDep.click_on_SignIN_Link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4331715300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter user name Enter Password Click on Signin",
+            "match": {
+              "location": "LoginStepDep.enter_user_name_Enter_Password_Click_on_Signin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 407358000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify user can login successfully",
+            "match": {
+              "location": "LoginStepDep.verify_user_can_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
